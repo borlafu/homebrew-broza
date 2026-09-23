@@ -1,10 +1,10 @@
 class Broza < Formula
   desc "Broza: safe disk cleanup CLI for macOS"
   homepage "https://github.com/borlafu/broza"
-  version "1.0.0"
+  version "1.1.0"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/borlafu/broza/releases/download/v1.0.0/broza-cli-aarch64-apple-darwin.tar.xz"
-    sha256 "b0528e8044b367d320e90bcff54bc574a720d35e1684c5ead81185b9b75a1507"
+    url "https://github.com/borlafu/broza/releases/download/v1.1.0/broza-cli-aarch64-apple-darwin.tar.xz"
+    sha256 "5ca0028c7d300021750bfeabea8224402684d73e598e5b69ec4087f699d3adee"
   end
   license "MIT"
 
